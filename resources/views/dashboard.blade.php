@@ -12,7 +12,7 @@
 					<h4> Adicionar Moveis </h4>
 				</div>
 				<div class="d-flex justify-content-center">
-					<form action="{{route('add-movel')}}" method="POST" enctype="multipart/form-data" class="ml-10">
+					<form action="{{route('add-movel')}}" method="POST" enctype="multipart/form-data"  class="ml-10">
 						@csrf
 						<div>
 							<x-label for="tipo" class="mt-5" :value="__('Tipo:')" />
